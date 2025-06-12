@@ -13,8 +13,8 @@ const filterText = ref('Platforms State of the Union');
 const filteredEmails = ref<MailItem[]>([]);
 
 // New input fields
-const user = ref('2582325957@qq.com');
-const password = ref('jwspwnykbgameabi');
+const user = ref('');
+const password = ref('');
 const host = ref('imap.qq.com');
 const conditions = ref('')
 const count = ref(10)
